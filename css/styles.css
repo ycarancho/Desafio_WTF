@@ -1,0 +1,57 @@
+#telalogin{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(104, 102, 102);
+    opacity: 0.7;
+}
+
+#telacriacao{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(104, 102, 102);
+    opacity: 0.7;
+}
+
+.msg-container{
+    padding: 15px;
+}
+.msg{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 1px #000;
+    text-align: center;
+}
+.msg.error{
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+.msg.success{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+#fundo{
+    background-image: url(../img/fundo.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
